@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/Chesse/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\123.dir\\test.cpp.obj -c D:\\Chesse\\test.cpp",
+  "file": "D:\\Chesse\\test.cpp",
+  "output": "CMakeFiles\\123.dir\\test.cpp.obj"
+}
+]
