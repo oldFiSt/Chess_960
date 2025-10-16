@@ -276,21 +276,21 @@ int main(){
 
     }
 
-    // if(l_flag == false && r_flag == false){
-    //     int Rook_rnd = rand() % (random_number - 9 + 1) + 8;
-    //     bool bishop_flag = false;
-    //     array_figure_first[Rook_rnd] = "Rook";
-    //     change_value(cnt_array, "Rook");
-    //     array_figure_first[random_number] = "King";
-    //     change_value(cnt_array, "King");
+    if(l_flag == false && r_flag == false){
+        int Rook_rnd = rand() % (random_number - 9 + 1) + 8;
+        bool bishop_flag = false;
+        array_figure_first[Rook_rnd] = "Rook";
+        change_value(cnt_array, "Rook");
+        array_figure_first[random_number] = "King";
+        change_value(cnt_array, "King");
         
-    //     int rnd = rand() % (5 - 1 + 1) + 1;
-    //     std::string str = figure_name[rnd];
+        int rnd = rand() % (5 - 1 + 1) + 1;
+        std::string str = figure_name[rnd];
 
-    //     for(int i = 0; i < random_number; i++){
+        for(int i = 0; i < random_number; i++){
 
-    //     }
-    // }
+        }
+    }
 
     for(int i = 0; i < 16; i++){
         std::cout << array_figure_first[i] << ' ';
